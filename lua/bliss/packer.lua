@@ -48,7 +48,6 @@ return require('packer').startup(function(use)
         },
         {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
-        {'nvim-tree/nvim-web-devicons'},
         -- (Autocompletion)
         {'hrsh7th/nvim-cmp'},     -- Required
         {'hrsh7th/cmp-nvim-lsp'}, -- Required
@@ -56,6 +55,7 @@ return require('packer').startup(function(use)
     }
 }
 
+    use ('nvim-tree/nvim-web-devicons')
     use ('terrortylor/nvim-comment')
     
     use { -- Add indentation guides even on blank lines
