@@ -56,6 +56,7 @@ return require('packer').startup(function(use)
 }
 
     use ('nvim-tree/nvim-web-devicons')
+
     use ('terrortylor/nvim-comment')
     
     use { -- Add indentation guides even on blank lines
@@ -73,6 +74,7 @@ return require('packer').startup(function(use)
     end}
     
     use ("ThePrimeagen/vim-be-good")
+
     use ("tpope/vim-obsession")
 end)
 
