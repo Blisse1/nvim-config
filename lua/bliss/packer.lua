@@ -77,14 +77,5 @@ return require('packer').startup(function(use)
 
     use ("tpope/vim-obsession")
 
-    use {"folke/zen-mode.nvim", opts = {
-        
-    }}
-
-    use {"folke/twilight.nvim", opts = {
-    }}
-    -- Database temporal plugins
-    use {'tpope/vim-dadbod'}
-    use {'kristijanhusak/vim-dadbod-ui'}
 end)
 

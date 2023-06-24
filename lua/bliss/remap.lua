@@ -46,9 +46,5 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
-vim.keymap.set("n", "<leader>du", "<cmd>DBUIToggle<CR>", { silent = true} )
-vim.keymap.set("n", "<leader>df", "<cmd>DBUIFindBuffer<CR>", { silent = true} )
-vim.keymap.set("n", "<leader>dr", "<cmd>DBUIRenameBuffer<CR>", { silent = true} )
-vim.keymap.set("n", "<leader>dl", "<cmd>DBUILastQueryInfo<CR>", { silent = true} )
 
 
